@@ -1,0 +1,26 @@
+{
+    "name": "bs",
+    "displayName": "billing",
+    "description": "Billing language",
+    "version": "0.0.1",
+    "publisher": "billing",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "billing",
+            "aliases": ["billing", "billing"],
+            "extensions": [".bs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "billing",
+            "scopeName": "source.bs",
+            "path": "./syntaxes/billing.tmLanguage"
+        }]
+    }
+}
